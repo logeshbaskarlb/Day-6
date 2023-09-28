@@ -22,7 +22,13 @@ console.log(
 // in the input array with a rating of "PG". You may assume the
 //input array is full of Movie instances. The returned array need
 // not be full.
-
+const moviesList = [
+    new Movie("Iron-Man", "Marvel Production", "PG"),
+    new Movie("Aqua-Man", "DC Production", "R"),
+    new Movie("Trans-Former", "StarWars Production", "PG"),
+    new Movie("Captain-America", "Marvel Production"),
+    new Movie("Bad-Boy's", "Carnivel Production", "PG-13"),
+]
 
 
 //d)
